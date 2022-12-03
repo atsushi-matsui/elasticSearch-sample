@@ -1,5 +1,10 @@
 # What
-Trial elastic search.
+Sample elastic search.
+
+### Required
+- python3
+- pipenv
+- homebrew
 
 ### Scripts
 - init
@@ -34,4 +39,5 @@ http://localhost:5601/
 
 ### Refs
 [elasticsearch-py](https://github.com/elastic/elasticsearch-py)
+
 [python sample](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/examples.html#ex-search)
