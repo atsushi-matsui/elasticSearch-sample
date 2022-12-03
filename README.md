@@ -1,13 +1,13 @@
 # What
 Sample elastic search.
 
-### Required
+## Required
 - python3
 - pipenv
 - homebrew
 
-### Scripts
-#### init
+## Scripts
+### init
 
 1. start elasticSearch and kibana.
 ```
@@ -20,10 +20,9 @@ pipenv shell
 3. install modules.
 ```
 pipenv install
-
 ```
 
-#### stop
+### stop
 1. exit from venv.
 ```
 exit
@@ -33,7 +32,7 @@ exit
 bash ./script/stop.bash
 ```
 
-### Commands
+## Commands
 - elastic search health check.
 ```
 cd ./src
@@ -45,7 +44,7 @@ http://localhost:5601/
 ```
 
 
-### Tips
+## Tips
 |  ES  |  RDBMS  |
 | ---- | ---- |
 |  index  |  database  |
@@ -55,7 +54,7 @@ http://localhost:5601/
 |  mapping  |  schema  |
 
 
-### Refs
+## Refs
 [elasticsearch-py](https://github.com/elastic/elasticsearch-py)
 
 [python sample](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/examples.html#ex-search)
