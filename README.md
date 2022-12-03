@@ -7,19 +7,37 @@ Sample elastic search.
 - homebrew
 
 ### Scripts
-- init
+#### init
+
+1. start elasticSearch and kibana.
 ```
 bash ./script/init.bash 
 ```
-- stop
+2. create venv.
+```
+pipenv shell
+```
+3. install modules.
+```
+pipenv install
+
+```
+
+#### stop
+1. exit from venv.
+```
+exit
+```
+2. stop elasticSearch and kibana.
 ```
 bash ./script/stop.bash
 ```
 
-### Login
-- elastic search start test.
+### Commands
+- elastic search health check.
 ```
-curl localhost:9200
+cd ./src
+python3 sample.py
 ```
 - login to kibana.
 ```
