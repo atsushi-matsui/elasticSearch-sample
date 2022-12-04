@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 elasticsearch = "==8.5"
+urllib3 = "*"
+tqdm = "*"
 
 [dev-packages]
 
