@@ -11,7 +11,7 @@ Sample elastic search.
 
 1. start elasticSearch and kibana.
 ```
-bash ./script/init.bash 
+source ./script/init.bash 
 ```
 2. create venv.
 ```

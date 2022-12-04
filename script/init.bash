@@ -22,9 +22,7 @@ fi
 brew install "${brew_packges[@]}"
 
 ES_PATH_CONF="$SCRIPT_DIR/configs"
-echo "elasticsearch config path is $ES_PATH_CONF"
 KBN_PATH_CONF="$SCRIPT_DIR/configs"
-echo "kibana config path is $ES_PATH_CONF"
 
 brew services start 'elasticsearch-full'
 brew services start 'kibana-full'
